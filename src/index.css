@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #050505;
+}
+
+canvas {
+  touch-action: none;
+}
+
+/* Custom Cyberpunk effects */
+.cyber-glow {
+  text-shadow: 0 0 10px rgba(0, 242, 255, 0.7), 0 0 20px rgba(0, 242, 255, 0.5);
+}
+
+.cyber-border {
+  border: 1px solid rgba(0, 242, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 242, 255, 0.1);
+}
+
+.cyber-gradient {
+  background: linear-gradient(135deg, #00f2ff 0%, #ff00ff 100%);
+}
